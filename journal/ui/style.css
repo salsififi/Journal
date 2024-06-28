@@ -1,0 +1,16 @@
+#lbl_date {
+    background: white;
+    font-size: 24px;
+    font-family: "Papyrus";
+    color: purple;
+    font-weight: bold;
+    border: none;
+    }
+
+QTextEdit {
+    border: none;
+    }
+
+QCalendarWidget QTableView::item:selected {
+    background-color: {selected_date_bg_color};
+    }
